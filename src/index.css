@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container-fluid{
+  
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+   justify-content: center;
+   margin-top: 20px;
+   padding-top: 20px;
+}
+.btn{
+width: 70px;
+}

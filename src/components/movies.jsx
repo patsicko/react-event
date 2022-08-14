@@ -8,23 +8,21 @@ class Movies extends Component{
       movies:getMovies()
     }
 
+
 handleDelete=(movie)=>{
-    console.log(movie)
+    // console.log(movie)
      const movy=this.state.movies.filter(item=>item._id !==movie._id);
      this.setState({movies:movy})
-        
-  
-   
-   
+          
 }
 
 
-
     render(){
+        // console.log(this.handleDelete);
         return(
 
         <>
-     {console.log(this.state.movies)}
+     {/* {console.log(this.state.movies)} */}
 
    
 
@@ -61,4 +59,6 @@ handleDelete=(movie)=>{
 }
 
 export default Movies;
+
+
 
