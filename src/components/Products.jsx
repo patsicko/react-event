@@ -48,7 +48,7 @@ setProducts(update)
           <td>{item.category}</td>
           <td>{item.description}</td> 
           <td>{item.price}</td>
-         <button className='btn bg-danger text-white' onClick={()=>handleDelete(item)}>Delete</button>
+         <button className='btn bg-danger text-white btn-sm' onClick={()=>handleDelete(item)}>Delete</button>
         </tr>
 
       ))}
